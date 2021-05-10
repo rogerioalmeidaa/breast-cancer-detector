@@ -15,10 +15,10 @@ from tensorflow.keras.applications.inception_v3 import InceptionV3
     Plota uma representação gráfica do modelo = keras.utils.plot_model(base_model, to_file='model_plot.png', show_shapes=True, show_layer_names=True) #Cria uma representação gráfica do modelo
 '''
 
-converted_dataset_root_path = '/media/rogerio/49a45a42-45ee-49c3-9085-9defff31abe8/TCC-Dataset/dataset/converted/'
+converted_dataset_root_path = '/media/rogerio/49a45a42-45ee-49c3-9085-9defff31abe8/TCC-Dataset/code/dataset/converted/'
 training_dataset_path = 'Mass-Training-Full-Mammogram-Images-(DICOM)'
 test_dataset_path = 'Mass-Test-Mammogram-Images-(DICOM)'
-model_test_dataset_true_classification_path = '/media/rogerio/49a45a42-45ee-49c3-9085-9defff31abe8/TCC-Dataset/model_test_dataset_true_classification'
+model_test_dataset_true_classification_path = '/media/rogerio/49a45a42-45ee-49c3-9085-9defff31abe8/TCC-Dataset/code/model_test_dataset_true_classification'
 class_names =   ['BENIGN','MALIGNANT']
 image_size = (300, 300) #(299, 299) #(256, 512) #(512, 1024)
 

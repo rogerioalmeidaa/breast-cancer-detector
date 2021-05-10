@@ -6,9 +6,9 @@ import pickle
 import pydicom
 
 #Dataset input folder (original files downloaded from CBIS-DDSM web site, Ex: Mass-Training Full Mammogram Images (DICOM), Mass-Test Full Mammogram Images (DICOM))
-raw_dataset_root_path = '/media/rogerio/49a45a42-45ee-49c3-9085-9defff31abe8/TCC-Dataset/dataset/raw/'
+raw_dataset_root_path = '/media/rogerio/49a45a42-45ee-49c3-9085-9defff31abe8/TCC-Dataset/code/dataset/raw/'
 #Dataset output folder (pre processed files after script execution)
-converted_dataset_root_path = '/media/rogerio/49a45a42-45ee-49c3-9085-9defff31abe8/TCC-Dataset/dataset/converted/'
+converted_dataset_root_path = '/media/rogerio/49a45a42-45ee-49c3-9085-9defff31abe8/TCC-Dataset/code/dataset/converted/'
 subset_path = ['Mass-Training-Full-Mammogram-Images-(DICOM)', 'Mass-Test-Mammogram-Images-(DICOM)']
 subset_metadata_path =  ['mass_case_description_train_set.csv', 'mass_case_description_test_set.csv']
 classification_subset_file = ['model_train_dataset_true_classification', 'model_test_dataset_true_classification']
